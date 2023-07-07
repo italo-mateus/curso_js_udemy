@@ -1,6 +1,6 @@
 /*
 IF - Pode ser usado sozinho
-else - Sempre que utilizo else, tem um IF antes
+else - Sempre que utilizo else, tem um IF antes (Depende do IF)
 pode existir varios else if
 so pode ter um else na checagem
 */
