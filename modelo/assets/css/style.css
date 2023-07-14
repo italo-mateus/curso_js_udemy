@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --primary: rgb(53, 187, 142);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: var(--primary);
+    font-family: 'Open sans', sans-serif ;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: #ffff;
+}
+
+label, form, button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    margin: 30px auto;
+    width: 100px;
+}
+
+input:focus {
+    outline: 1px solid var(--primary);
+    border: none;
+}
