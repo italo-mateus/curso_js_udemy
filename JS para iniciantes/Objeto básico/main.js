@@ -5,4 +5,5 @@ const pessoa1 = {
 
 }
 
-console.log(pessoa1.nome);
+console.log(pessoa1.idade);
+console.log("Olá mundo")
