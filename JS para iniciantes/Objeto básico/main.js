@@ -1,9 +1,15 @@
-const pessoa1 = {
+/*const pessoa1 = {
     idade: 18,
-    nome: Italo,
-    Sobrenome: Mateus
+    nome: 'Italo',
+    Sobrenome: 'Mateus',
+}*/
 
+function criapessoa (nome, sobrenome, idade) {
+    return { nome, sobrenome, idade };
 }
 
-console.log(pessoa1.idade);
-console.log("Olá mundo")
+const pessoa1 = criapessoa('Luiz', 'Otavio', 25)
+const pessoa2 = criapessoa('Maria', 'Julia', 20)
+
+console.log(pessoa1.nome)
+
