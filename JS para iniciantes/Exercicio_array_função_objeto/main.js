@@ -1,6 +1,6 @@
 function meuescopo (){
     const formulario = document.querySelector('.formulario');
-    const resultado = document.querySelector('.resultado')
+    const resultado = document.querySelector('.resultado');
 
     const pessoas = [];
 

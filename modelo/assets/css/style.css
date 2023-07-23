@@ -52,7 +52,12 @@ input {
     margin: auto;
 }
 
-input:focus {
-    outline: 1px solid var(--primary);
-    border: none;
+.bad {
+    background-color: red;
+    margin: 20px;
+}
+
+.resultado{
+    background-color: green;
+    margin: 20px;
 }
