@@ -1,0 +1,33 @@
+function main() {
+    console.log("Bem-vindo(a) à cafeteria!");
+    console.log("Opções de bebidas:");
+    console.log("1. Café");
+    console.log("2. Leite");
+    console.log("3. Chá");
+
+    const escolha = parseInt(prompt("Escolha uma opção (1/2/3):"));
+    let valor = 0.0;
+    let bebida = "";
+
+    switch (escolha) {
+        case 1:
+            valor = 2.5;
+            bebida = "Café";
+            break;
+        case 2:
+            valor = 3.0;
+            bebida = "Leite";
+            break;
+        case 3:
+            valor = 2.0;
+            bebida = "Chá";
+            break;
+        default:
+            console.log("Opção inválida! Escolha entre café, leite ou chá.");
+            return;
+    }
+
+    console.log(`Você escolheu ${bebida}. O valor a ser pago é R$ ${valor.toFixed(2)}.`);
+}
+
+main();
