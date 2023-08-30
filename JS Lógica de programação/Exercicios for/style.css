@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --primary: rgb(53, 187, 142);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: var(--primary);
+    font-family: 'Open sans', sans-serif ;
+}
+
+.container {
+    max-width: 640px;
+    margin: 30px auto;
+    background: #ffff;
+    display: block;
+    padding: 30px;
+}
+
+label {
+    display: block;
+    width: 70%;
+    margin: auto;
+
+}
+
+form {
+    display: block;
+    width: 70%;
+    margin: auto;
+
+}
+
+button {
+    display: block;
+    width: 70%;
+    margin: auto;
+    margin-top: 15px;
+
+}
+
+input {
+    display: block;
+    width: 70%;
+    margin: auto;
+}
+
+.bad {
+    background-color: red;
+    margin: 20px;
+}
+
+.resultado{
+    background-color: green;
+    margin: 20px;
+}

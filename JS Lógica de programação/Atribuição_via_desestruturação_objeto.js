@@ -1,5 +1,5 @@
 const pessoa = {
-    //nome: 'Italo',
+    nome: 'Italo',
     sobrenome: 'Mateus',
     idade: 30,
     endereco: {
@@ -12,7 +12,7 @@ const pessoa = {
 // console.log(nome)
 
 const {nome, ...resto }= pessoa
-console.log(resto)
+console.log(nome)
 
 
 
