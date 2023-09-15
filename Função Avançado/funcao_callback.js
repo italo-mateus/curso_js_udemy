@@ -1,15 +1,10 @@
-function rand(min = 1000, max = 3000){
-    const num = Math.random() * (max - min) + min
-    return Math.floor(num)
+const fabricantes = ['mercedes', 'audi', 'bmw']
+
+function imprimir (nome, indice){
+    console.log(`${indice + 1}. ${nome}`)
 }
 
-console.log(rand())
-
-function f1() {
-    setTimeout(function(){
-        console.log('f1')
-    }, rand())
-}
-
-f1()
-console.log('olá mundo')
+fabricantes.forEach(imprimir)
+fabricantes.forEach(function(fabricante){
+    console.log(a)
+})
