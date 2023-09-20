@@ -6,3 +6,6 @@ const pessoa = {
 }
 
 pessoa.falar()
+
+const falardepessoa = pessoa.falar.bind(pessoa) //bind serve para amarrar um componente ao objeto
+falardepessoa()
