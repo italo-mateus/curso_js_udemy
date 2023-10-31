@@ -1,7 +1,9 @@
 aprovados = ['Bia', 'Ana']
 
-console.log(aprovados[0])
+console.log(aprovados)
 
-aprovados[3] = 'Paulo'
+aprovados01 = aprovados.pop()
 
-console.log(aprovados[3])
+console.log(aprovados01)
+
+console.log(aprovados)
