@@ -1,7 +1,8 @@
 const express = require('express')
 const app = express()
 
-
+// URL params
+// Query string
 
 app.get('/', (req, res) => {
     res.send(`
@@ -9,6 +10,13 @@ app.get('/', (req, res) => {
     nome do cliente: <input type="text" name="nome">
     <button> Enviar </button>
     </form>`)
+})
+
+app.get('/testes/:idUsuarios?', (req, res) => {
+    console.log(req.params)
+    console.log(req.query)
+    res.send(req.params)
+
 })
 
 app.post('/', (req, res) => {
